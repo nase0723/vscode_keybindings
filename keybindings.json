@@ -1,0 +1,88 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
+[
+    // 移動
+    {
+        "key": "alt+i",
+        "command": "cursorUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+j",
+        "command": "cursorLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+k",
+        "command": "cursorDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+l",
+        "command": "cursorRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+j",
+        "command": "cursorWordEndLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "cursorWordEndRight",
+        "when": "editorTextFocus"
+    },
+    // 選択
+    {
+        "key": "alt+shift+i",
+        "command": "cursorUpSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+j",
+        "command": "cursorLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+k",
+        "command": "cursorDownSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+shift+l",
+        "command": "cursorRightSelect",
+        "when": "textInputFocus"
+    },
+    // 複製
+    {
+        "key": "ctrl+shift+alt+i",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus"
+    },    
+    {
+        "key": "ctrl+shift+alt+k",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus"
+    },    
+    // マルチカーソル
+    {
+        "key": "ctrl+alt+k",
+        "command": "cursorColumnSelectDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+i",
+        "command": "cursorColumnSelectUp",
+        "when": "editorTextFocus"
+    },
+    // home, end
+    {
+        "key": "ctrl+shift+a",
+        "command": "cursorHome",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "cursorEnd",
+        "when": "editorTextFocus"
+    }
+]
