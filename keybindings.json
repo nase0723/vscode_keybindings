@@ -52,6 +52,16 @@
         "command": "cursorRightSelect",
         "when": "textInputFocus"
     },
+    {
+        "key": "ctrl+shift+alt+j",
+        "command": "cursorWordLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+l",
+        "command": "cursorWordRightSelect",
+        "when": "textInputFocus"
+    },
     // 複製
     {
         "key": "ctrl+shift+alt+i",
