@@ -30,6 +30,17 @@
         "command": "cursorWordEndRight",
         "when": "editorTextFocus"
     },
+    // 行の移動
+    {
+        "key": "ctrl+i",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus"
+    },
     // 選択
     {
         "key": "alt+shift+i",
@@ -60,17 +71,6 @@
         "key": "ctrl+shift+alt+l",
         "command": "cursorWordRightSelect",
         "when": "textInputFocus"
-    },
-    // 行の移動
-    {
-        "key": "ctrl+i",
-        "command": "editor.action.moveLinesUpAction",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+k",
-        "command": "editor.action.moveLinesDownAction",
-        "when": "editorTextFocus"
     },
     // 複製
     {
