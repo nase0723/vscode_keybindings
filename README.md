@@ -14,7 +14,7 @@ alt+a
 行末まで移動  
 alt+e
 ***
-選択  
+十字キー選択  
 ctrl+shift+ijkl
 ***
 単語単位で選択  
