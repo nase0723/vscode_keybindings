@@ -1,15 +1,7 @@
 # vscode keybindings
 
 
-十字キー移動
-
-ctrl+i
-
-ctrl+j
-
-ctrl+k
-
-ctrl+l
+十字キー移動　ctrl+ijkl
 
 単語単位で移動
 ctrl+alt+j
@@ -20,10 +12,7 @@ alt+a
 alt+e
 
 選択
-ctrl+shift+i
-ctrl+shift+j
-ctrl+shift+k
-ctrl+shift+l
+ctrl+shift+ijkl
 
 単語単位で選択
 ctrl+shift+alt+j
