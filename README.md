@@ -1,3 +1,3 @@
 # vscode keybindings
 
-IJKL arrow keys
+ctrl + ijkl で移動
