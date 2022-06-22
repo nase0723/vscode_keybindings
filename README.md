@@ -1,3 +1,3 @@
-# vscode_keybindings
+# vscode keybindings
 
 IJKL arrow keys
