@@ -7,8 +7,10 @@
 ctrl+alt+j
 ctrl+alt+l
 
-行末まで移動
+行頭まで移動
 alt+a
+
+行末まで移動
 alt+e
 
 選択
