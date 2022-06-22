@@ -1,5 +1,5 @@
 [
-    // 移動
+    // 十字キー移動
     {
         "key": "ctrl+i",
         "command": "cursorUp",
@@ -20,6 +20,7 @@
         "command": "cursorRight",
         "when": "editorTextFocus"
     },
+    // 単語単位で移動
     {
         "key": "ctrl+alt+j",
         "command": "cursorWordEndLeft",
@@ -30,11 +31,13 @@
         "command": "cursorWordEndRight",
         "when": "editorTextFocus"
     },
+    // 行頭まで移動
     {
         "key": "alt+a",
         "command": "cursorHome",
         "when": "editorTextFocus"
     },
+    // 行末まで移動
     {
         "key": "alt+e",
         "command": "cursorEnd",
@@ -61,6 +64,7 @@
         "command": "cursorRightSelect",
         "when": "textInputFocus"
     },
+    // 単語単位で選択
     {
         "key": "ctrl+shift+alt+j",
         "command": "cursorWordLeftSelect",
@@ -71,11 +75,13 @@
         "command": "cursorWordRightSelect",
         "when": "textInputFocus"
     },
+    // 行頭まで選択
     {
         "key": "alt+shift+a",
         "command": "cursorHomeSelect",
         "when": "editorTextFocus"
     },
+    // 行末まで選択
     {
         "key": "alt+shift+e",
         "command": "cursorEndSelect",
@@ -91,6 +97,12 @@
         "key": "alt+k",
         "command": "editor.action.moveLinesDownAction",
         "when": "editorTextFocus"
+    },
+    // 行の削除
+    {
+        "key": "ctrl+shift+alt+k",
+        "command": "editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
     },
     // 複製
     {
@@ -113,12 +125,6 @@
         "key": "ctrl+alt+i",
         "command": "cursorColumnSelectUp",
         "when": "editorTextFocus"
-    },
-    // 行の削除
-    {
-        "key": "ctrl+shift+alt+k",
-        "command": "editor.action.deleteLines",
-        "when": "textInputFocus && !editorReadonly"
     },
     // 表示パネル切り替え
     {
