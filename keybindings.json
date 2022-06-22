@@ -1,22 +1,22 @@
 [
     // 移動
     {
-        "key": "alt+i",
+        "key": "ctrl+i",
         "command": "cursorUp",
         "when": "editorTextFocus"
     },
     {
-        "key": "alt+j",
+        "key": "ctrl+j",
         "command": "cursorLeft",
         "when": "editorTextFocus"
     },
     {
-        "key": "alt+k",
+        "key": "ctrl+k",
         "command": "cursorDown",
         "when": "editorTextFocus"
     },
     {
-        "key": "alt+l",
+        "key": "ctrl+l",
         "command": "cursorRight",
         "when": "editorTextFocus"
     },
@@ -30,35 +30,34 @@
         "command": "cursorWordEndRight",
         "when": "editorTextFocus"
     },
-    // 行の移動
     {
-        "key": "ctrl+i",
-        "command": "editor.action.moveLinesUpAction",
+        "key": "alt+a",
+        "command": "cursorHome",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+k",
-        "command": "editor.action.moveLinesDownAction",
+        "key": "alt+e",
+        "command": "cursorEnd",
         "when": "editorTextFocus"
     },
     // 選択
     {
-        "key": "alt+shift+i",
+        "key": "ctrl+shift+i",
         "command": "cursorUpSelect",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+shift+j",
+        "key": "ctrl+shift+j",
         "command": "cursorLeftSelect",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+shift+k",
+        "key": "ctrl+shift+k",
         "command": "cursorDownSelect",
         "when": "textInputFocus"
     },
     {
-        "key": "alt+shift+l",
+        "key": "ctrl+shift+l",
         "command": "cursorRightSelect",
         "when": "textInputFocus"
     },
@@ -72,14 +71,35 @@
         "command": "cursorWordRightSelect",
         "when": "textInputFocus"
     },
+    {
+        "key": "alt+shift+a",
+        "command": "cursorHomeSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+shift+e",
+        "command": "cursorEndSelect",
+        "when": "editorTextFocus"
+    },
+    // 行の移動
+    {
+        "key": "alt+i",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+k",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus"
+    },
     // 複製
     {
-        "key": "ctrl+shift+alt+i",
+        "key": "shift+alt+i",
         "command": "editor.action.copyLinesUpAction",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+shift+alt+k",
+        "key": "shift+alt+k",
         "command": "editor.action.copyLinesDownAction",
         "when": "editorTextFocus"
     },
@@ -94,15 +114,15 @@
         "command": "cursorColumnSelectUp",
         "when": "editorTextFocus"
     },
-    // home, end
+    // 行の削除
     {
-        "key": "ctrl+shift+a",
-        "command": "cursorHome",
-        "when": "editorTextFocus"
+        "key": "ctrl+shift+alt+k",
+        "command": "editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
     },
+    // 表示パネル切り替え
     {
-        "key": "ctrl+shift+e",
-        "command": "cursorEnd",
-        "when": "editorTextFocus"
-    }
+        "key": "alt+j",
+        "command": "workbench.action.togglePanel",
+    },
 ]
