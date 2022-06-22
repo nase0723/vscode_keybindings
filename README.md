@@ -38,6 +38,6 @@ shift+alt+k
 ctrl+alt+k  
 ctrl+alt+i
 ***
-表示パネル切り替え 
+表示パネル切り替え  
 alt+j
 ***
