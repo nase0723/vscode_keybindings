@@ -1,19 +1,19 @@
 # vscode keybindings
 
 
-十字キー移動
+十字キー移動  
 ctrl+ijkl
 ***
-単語単位で移動 
-ctrl+alt+j 
+単語単位で移動  
+ctrl+alt+j  
 ctrl+alt+l
 ***
-行頭まで移動
+行頭まで移動  
 alt+a
 ***
-行末まで移動 
-***
+行末まで移動  
 alt+e
+***
 
 選択 
 ctrl+shift+ijkl
