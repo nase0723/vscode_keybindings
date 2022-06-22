@@ -2,9 +2,13 @@
 
 
 十字キー移動
+
 ctrl+i
+
 ctrl+j
+
 ctrl+k
+
 ctrl+l
 
 単語単位で移動
