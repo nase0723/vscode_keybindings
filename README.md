@@ -1,6 +1,3 @@
-# vscode keybindings
-
-
 十字キー移動  
 ctrl+ijkl
 ***
