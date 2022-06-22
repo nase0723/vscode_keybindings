@@ -43,7 +43,7 @@
         "command": "cursorEnd",
         "when": "editorTextFocus"
     },
-    // 選択
+    // 十字キー選択
     {
         "key": "ctrl+shift+i",
         "command": "cursorUpSelect",
