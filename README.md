@@ -1,5 +1,5 @@
 十字キー移動  
-ctrl+ijkl (上左下右)
+ctrl+ijkl(上左下右)
 ***
 単語単位で移動  
 ctrl+alt+j  
