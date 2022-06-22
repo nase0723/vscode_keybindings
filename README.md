@@ -1,5 +1,5 @@
 十字キー移動  
-ctrl+ijkl(上左下右)
+ctrl+ijkl (上左下右)
 ***
 単語単位で移動  
 ctrl+alt+j  
@@ -12,7 +12,7 @@ alt+a
 alt+e
 ***
 十字キー選択  
-ctrl+shift+ijkl
+ctrl+shift+ijkl (上左下右)
 ***
 単語単位で選択  
 ctrl+shift+alt+j  
