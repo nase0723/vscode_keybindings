@@ -1,7 +1,8 @@
 # vscode keybindings
 
 
-######十字キー移動　ctrl+ijkl
+##十字キー移動　
+ctrl+ijkl
 
 単語単位で移動
 ctrl+alt+j
