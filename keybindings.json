@@ -20,17 +20,6 @@
         "command": "cursorRight",
         "when": "editorTextFocus"
     },
-    // 単語単位で移動
-    {
-        "key": "ctrl+alt+j",
-        "command": "cursorWordEndLeft",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+alt+l",
-        "command": "cursorWordEndRight",
-        "when": "editorTextFocus"
-    },
     // 行頭まで移動
     {
         "key": "alt+a",
@@ -64,26 +53,15 @@
         "command": "cursorRightSelect",
         "when": "textInputFocus"
     },
-    // 単語単位で選択
-    {
-        "key": "ctrl+shift+alt+j",
-        "command": "cursorWordLeftSelect",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+shift+alt+l",
-        "command": "cursorWordRightSelect",
-        "when": "textInputFocus"
-    },
     // 行頭まで選択
     {
-        "key": "alt+shift+a",
+        "key": "ctrl+shift+a",
         "command": "cursorHomeSelect",
         "when": "editorTextFocus"
     },
     // 行末まで選択
     {
-        "key": "alt+shift+e",
+        "key": "ctrl+shift+e",
         "command": "cursorEndSelect",
         "when": "editorTextFocus"
     },
@@ -124,18 +102,6 @@
     {
         "key": "ctrl+alt+i",
         "command": "cursorColumnSelectUp",
-        "when": "editorTextFocus"
-    },
-    // 右端まで選択
-    {
-        "key": "ctrl+shift+a",
-        "command": "cursorHomeSelect",
-        "when": "editorTextFocus"
-    },
-    // 左端まで選択
-    {
-        "key": "ctrl+shift+e",
-        "command": "cursorEndSelect",
         "when": "editorTextFocus"
     },
     // 表示パネル切り替え
