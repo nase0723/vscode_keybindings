@@ -126,13 +126,13 @@
         "command": "cursorColumnSelectUp",
         "when": "editorTextFocus"
     },
-    // 右端まで移動
+    // 右端まで選択
     {
         "key": "ctrl+shift+a",
         "command": "cursorHomeSelect",
         "when": "editorTextFocus"
     },
-    // 左端まで移動
+    // 左端まで選択
     {
         "key": "ctrl+shift+e",
         "command": "cursorEndSelect",
