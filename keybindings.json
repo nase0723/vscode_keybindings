@@ -126,6 +126,18 @@
         "command": "cursorColumnSelectUp",
         "when": "editorTextFocus"
     },
+    // 右端まで移動
+    {
+        "key": "ctrl+shift+a",
+        "command": "cursorHomeSelect",
+        "when": "editorTextFocus"
+    },
+    // 左端まで移動
+    {
+        "key": "ctrl+shift+e",
+        "command": "cursorEndSelect",
+        "when": "editorTextFocus"
+    },
     // 表示パネル切り替え
     {
         "key": "alt+j",
