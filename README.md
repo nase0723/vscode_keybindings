@@ -1,3 +1,5 @@
+```C:\Users\user\AppData\Roaming\Code\User\keybindings.json```
+
 十字キー移動  
 ctrl+ijkl (上左下右)
 ***
