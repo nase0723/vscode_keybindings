@@ -20,16 +20,16 @@
         "command": "cursorRight",
         "when": "editorTextFocus"
     },
-    // 単語単位で移動
-    {
-        "key": "ctrl+alt+j",
-        "command": "cursorWordEndLeft",
-        "when": "editorTextFocus"
-    },
+    // 文字単位で移動
     {
         "key": "ctrl+alt+l",
         "command": "cursorWordEndRight",
-        "when": "editorTextFocus"
+        "when": "textInputFocus && !accessibilityModeEnabled"
+    },
+    {
+        "key": "ctrl+alt+j",
+        "command": "cursorWordLeft",
+        "when": "textInputFocus && !accessibilityModeEnabled"
     },
     // 行頭まで移動
     {
@@ -64,17 +64,6 @@
         "command": "cursorRightSelect",
         "when": "textInputFocus"
     },
-    // 単語単位で選択
-    {
-        "key": "ctrl+shift+alt+j",
-        "command": "cursorWordLeftSelect",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+shift+alt+l",
-        "command": "cursorWordRightSelect",
-        "when": "textInputFocus"
-    },
     // 行頭まで選択
     {
         "key": "ctrl+shift+a",
@@ -97,12 +86,6 @@
         "key": "alt+k",
         "command": "editor.action.moveLinesDownAction",
         "when": "editorTextFocus"
-    },
-    // 行の選択
-    {
-        "key": "ctrl+;",
-        "command": "expandLineSelection",
-        "when": "textInputFocus"
     },
     // 行の削除
     {
