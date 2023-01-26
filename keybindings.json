@@ -98,12 +98,6 @@
         "command": "editor.action.moveLinesDownAction",
         "when": "editorTextFocus"
     },
-    // 行の選択
-    // {
-    //     "key": "ctrl+;",
-    //     "command": "expandLineSelection",
-    //     "when": "textInputFocus"
-    // },
     // 行の削除
     {
         "key": "ctrl+shift+alt+k",
