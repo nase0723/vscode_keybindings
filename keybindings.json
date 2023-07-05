@@ -170,6 +170,28 @@
         "command": "editor.action.insertLineAfter",
         "when": "editorTextFocus && !editorReadonly"
     },
+    // save
+    {
+        "key": "ctrl+s",
+        "command": "workbench.action.files.save"
+    },
+    // deleteWordLeft
+    {
+        "key": "ctrl+backspace",
+        "command": "deleteWordLeft",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    // find
+    {
+        "key": "ctrl+f",
+        "command": "actions.find",
+        "when": "editorFocus || editorIsOpen"
+    },
+    // quickOpen
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpen"
+    }
     // {
     //     "key": "ctrl+/",
     //     "command": "editor.action.commentLine",
