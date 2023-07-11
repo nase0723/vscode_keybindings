@@ -2,199 +2,129 @@
 [
     // 十字キー移動
     {
-        "key": "ctrl+i",
+        "key": "cmd+i",
         "command": "cursorUp",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+j",
+        "key": "cmd+j",
         "command": "cursorLeft",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+k",
+        "key": "cmd+k",
         "command": "cursorDown",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+l",
+        "key": "cmd+l",
         "command": "cursorRight",
         "when": "editorTextFocus"
     },
     // 単語単位で移動
     {
-        "key": "ctrl+cmd+j",
+        "key": "cmd+alt+j",
         "command": "cursorWordLeft",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+cmd+l",
+        "key": "cmd+alt+l",
         "command": "cursorWordRight",
         "when": "editorTextFocus"
     },
     // // 行頭まで移動
     // {
-    //     "key": "cmd+a",
+    //     "key": "alt+a",
     //     "command": "cursorHome",
     //     "when": "editorTextFocus"
     // },
     // // 行末まで移動
     // {
-    //     "key": "cmd+e",
+    //     "key": "alt+e",
     //     "command": "cursorEnd",
     //     "when": "editorTextFocus"
     // },
     // 十字キー選択
     {
-        "key": "ctrl+shift+i",
+        "key": "cmd+shift+i",
         "command": "cursorUpSelect",
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+shift+j",
+        "key": "cmd+shift+j",
         "command": "cursorLeftSelect",
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+shift+k",
+        "key": "cmd+shift+k",
         "command": "cursorDownSelect",
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+shift+l",
+        "key": "cmd+shift+l",
         "command": "cursorRightSelect",
         "when": "textInputFocus"
     },
     // 単語単位で選択
     {
-        "key": "ctrl+shift+cmd+j",
+        "key": "cmd+shift+alt+j",
         "command": "cursorWordLeftSelect",
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+shift+cmd+l",
+        "key": "cmd+shift+alt+l",
         "command": "cursorWordRightSelect",
         "when": "textInputFocus"
     },
     // 行頭まで選択
     {
-        "key": "ctrl+shift+a",
+        "key": "cmd+shift+a",
         "command": "cursorHomeSelect",
         "when": "editorTextFocus"
     },
     // 行末まで選択
     {
-        "key": "ctrl+shift+e",
+        "key": "cmd+shift+e",
         "command": "cursorEndSelect",
         "when": "editorTextFocus"
     },
     // 行の移動
     {
-        "key": "cmd+i",
+        "key": "alt+i",
         "command": "editor.action.moveLinesUpAction",
         "when": "editorTextFocus"
     },
     {
-        "key": "cmd+k",
+        "key": "alt+k",
         "command": "editor.action.moveLinesDownAction",
         "when": "editorTextFocus"
     },
     // 行の削除
     {
-        "key": "ctrl+shift+cmd+k",
+        "key": "cmd+shift+alt+k",
         "command": "editor.action.deleteLines",
         "when": "textInputFocus && !editorReadonly"
     },
     // 複製
     {
-        "key": "shift+cmd+i",
+        "key": "shift+alt+i",
         "command": "editor.action.copyLinesUpAction",
         "when": "editorTextFocus"
     },
     {
-        "key": "shift+cmd+k",
+        "key": "shift+alt+k",
         "command": "editor.action.copyLinesDownAction",
         "when": "editorTextFocus"
     },
     // マルチカーソル
     {
-        "key": "ctrl+cmd+k",
+        "key": "cmd+alt+k",
         "command": "cursorColumnSelectDown",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+cmd+i",
+        "key": "cmd+alt+i",
         "command": "cursorColumnSelectUp",
         "when": "editorTextFocus"
-    },
-    // コピー
-    {
-        "key": "ctrl+c",
-        "command": "editor.action.clipboardCopyAction"
-    },
-    // カット
-    {
-        "key": "ctrl+x",
-        "command": "editor.action.clipboardCutAction"
-    },
-    // ペースト
-    {
-        "key": "ctrl+v",
-        "command": "editor.action.clipboardPasteAction"
-    },
-    // addSelectionToNextFindMatch
-    {
-        "key": "ctrl+d",
-        "command": "editor.action.addSelectionToNextFindMatch",
-        "when": "editorFocus"
-    },
-    // 戻る
-    {
-        "key": "ctrl+z",
-        "command": "undo"
-    },
-    // 進む
-    {
-        "key": "ctrl+y",
-        "command": "redo"
-    },
-    // insertLineBefore
-    {
-        "key": "ctrl+shift+enter",
-        "command": "editor.action.insertLineBefore",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    // insertLineAfter
-    {
-        "key": "ctrl+enter",
-        "command": "editor.action.insertLineAfter",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    // save
-    {
-        "key": "ctrl+s",
-        "command": "workbench.action.files.save"
-    },
-    // deleteWordLeft
-    {
-        "key": "ctrl+backspace",
-        "command": "deleteWordLeft",
-        "when": "textInputFocus && !editorReadonly"
-    },
-    // find
-    {
-        "key": "ctrl+f",
-        "command": "actions.find",
-        "when": "editorFocus || editorIsOpen"
-    },
-    // quickOpen
-    {
-        "key": "ctrl+p",
-        "command": "workbench.action.quickOpen"
     }
-    // {
-    //     "key": "ctrl+/",
-    //     "command": "editor.action.commentLine",
-    //     "when": "editorTextFocus && !editorReadonly"
-    // },
 ]
