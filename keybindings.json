@@ -75,18 +75,18 @@
         "command": "cursorWordRightSelect",
         "when": "textInputFocus"
     },
-    // // 行頭まで選択
-    // {
-    //     "key": "ctrl+shift+9",
-    //     "command": "cursorHomeSelect",
-    //     "when": "editorTextFocus"
-    // },
-    // // 行末まで選択
-    // {
-    //     "key": "ctrl+shift+0",
-    //     "command": "cursorEndSelect",
-    //     "when": "editorTextFocus"
-    // },
+    // 行頭まで選択
+    {
+        "key": "ctrl+shift+alt+9",
+        "command": "cursorHomeSelect",
+        "when": "editorTextFocus"
+    },
+    // 行末まで選択
+    {
+        "key": "ctrl+shift+alt+0",
+        "command": "cursorEndSelect",
+        "when": "editorTextFocus"
+    },
     // 行の移動
     {
         "key": "alt+i",
@@ -143,6 +143,7 @@
     //     "command": "editor.action.jumpToBracket",
     //     "when": "editorTextFocus"
     // },
+
     {
         "key": "ctrl+shift+a",
         "command": "editor.action.selectToBracket"
