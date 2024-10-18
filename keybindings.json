@@ -20,29 +20,6 @@
         "command": "cursorRight",
         "when": "editorTextFocus"
     },
-    // 単語単位で移動
-    {
-        "key": "ctrl+alt+j",
-        "command": "cursorWordLeft",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+alt+l",
-        "command": "cursorWordEndRight",
-        "when": "editorTextFocus"
-    },
-    // 行頭まで移動
-    {
-        "key": "ctrl+9",
-        "command": "cursorHome",
-        "when": "editorTextFocus"
-    },
-    // 行末まで移動
-    {
-        "key": "ctrl+0",
-        "command": "cursorEnd",
-        "when": "editorTextFocus"
-    },
     // 十字キー選択
     {
         "key": "ctrl+shift+i",
@@ -64,6 +41,17 @@
         "command": "cursorRightSelect",
         "when": "textInputFocus"
     },
+    // 単語単位で移動
+    {
+        "key": "ctrl+alt+j",
+        "command": "cursorWordLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "cursorWordEndRight",
+        "when": "editorTextFocus"
+    },
     // 単語単位で選択
     {
         "key": "ctrl+shift+alt+j",
@@ -75,16 +63,33 @@
         "command": "cursorWordRightSelect",
         "when": "textInputFocus"
     },
+    // 行頭まで移動
+    {
+        "key": "ctrl+u",
+        "command": "cursorHome",
+        "when": "editorTextFocus"
+    },
+    // 行末まで移動
+    {
+        "key": "ctrl+o",
+        "command": "cursorEnd",
+        "when": "editorTextFocus"
+    },
     // 行頭まで選択
     {
-        "key": "ctrl+shift+alt+9",
+        "key": "ctrl+shift+a",
         "command": "cursorHomeSelect",
         "when": "editorTextFocus"
     },
     // 行末まで選択
     {
-        "key": "ctrl+shift+alt+0",
+        "key": "ctrl+shift+e",
         "command": "cursorEndSelect",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+left",
+        "command": "cursorWordStartLeftSelect",
         "when": "editorTextFocus"
     },
     // 行の移動
@@ -128,25 +133,17 @@
     },
     // 表示パネル切り替え
     {
-        "key": "alt+j",
+        "key": "ctrl+m",
         "command": "workbench.action.togglePanel",
+    },
+    {
+        "key": "shift+alt+m",
+        "command": "workbench.action.toggleMaximizedPanel"
     },
     // ctrl+shift+wでウィンドウを閉じない
     {
         "key": "ctrl+shift+w",
         "command": "-workbench.action.closeWindow"
-    },
-    
-    // 括弧系
-    // {
-    //     "key": "ctrl+shift+/",
-    //     "command": "editor.action.jumpToBracket",
-    //     "when": "editorTextFocus"
-    // },
-
-    {
-        "key": "ctrl+shift+a",
-        "command": "editor.action.selectToBracket"
     },
     // smartSelect
     {
@@ -158,5 +155,21 @@
         "key": "shift+alt+j",
         "command": "editor.action.smartSelect.shrink",
         "when": "editorTextFocus"
+    },
+    // F12
+    {
+        "key": "ctrl+0",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "alt+j",
+        "command": "workbench.action.navigateBack",
+        "when": "canNavigateBack"
+    },
+    {
+        "key": "alt+l",
+        "command": "workbench.action.navigateForward",
+        "when": "canNavigateForward"
     },
 ]
